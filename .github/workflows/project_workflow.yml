@@ -13,11 +13,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
-    
+       
     steps:
       - name: Initial deploy
-         run: npm install
-         run: npm start
-         run: echo "Initialization workflow for deploy"
+      -  run: node --version
+      -  run: npm --version
+      -  run: echo "Initialization workflow for deploy"
          
