@@ -2,9 +2,7 @@
 const App = () => {
   return (
     <div >
-      <header >
-      Greeatings, my dear friends!
-      </header>
+      Greetings, my dear friends!
     </div>
   );
 }
