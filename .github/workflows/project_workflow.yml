@@ -1,0 +1,23 @@
+# GitHub Actions training
+
+
+name: Project-workflow
+  
+  
+on:
+  push:
+    branches:
+      - master
+      
+      
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    
+    steps:
+      - name: Initial deploy
+         run: npm install
+         run: npm start
+         run: echo "Initialization workflow for deploy"
+         
