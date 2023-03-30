@@ -16,9 +16,6 @@ jobs:
     container: node:19
     steps:
       -  uses: actions/checkout@v1
-      -  run: cd book-note-taking
-      -  run: ls -l
-      
-     # -  run: npm install
-     # -  run: npm start
+      -  run: npm install
+      -  run: npm start
          
