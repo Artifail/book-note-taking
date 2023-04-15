@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    height: 55px;
+    width: 100%;
+    /*background-color: #520c17;*/
+    background: #a8ffab;
+    background: -moz-linear-gradient(top, #a8ffab 0%, #a8ffab 80%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(top, #a8ffab 0%, #a8ffab 80%, #FFFFFF 100%);
+    background: linear-gradient(to bottom, #a8ffab 0%, #a8ffab 80%, #FFFFFF 100%);
+    z-index: 0;
+    justify-content: left;
+    color: #520c17;
+    text-shadow: 4px 3px 0 white;
+}
+
+.app_icon {
+
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 32px;
+    width: 32px;
+}
+
+.app_name {
+    margin-left: 5px;
+    margin-top: 15px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 20px;
+}
