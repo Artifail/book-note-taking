@@ -1,9 +1,14 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import BookPanel from "./components/BookPanel";
 
 const App = () => {
   return (
     <div >
-	  <header>Book-note-taking</header>
-      Greetings, my dear friends!
+      <BookPanel/>
+      <Header/>
+      <Footer/>
+      <p>Какой-то текст для проверки чего-то</p>
     </div>
   );
 }
