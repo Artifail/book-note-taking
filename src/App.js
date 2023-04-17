@@ -1,14 +1,18 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BookPanel from "./components/BookPanel";
+import { Worker } from '@react-pdf-viewer/core';
+
 
 const App = () => {
   return (
     <div >
-      <BookPanel/>
       <Header/>
+      <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+        <BookPanel/>
+      </Worker>
       <Footer/>
-      <p>Какой-то текст для проверки чего-то</p>
+      
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.bookpanel {
+    position: fixed;
+    right: 0;
+    width: 45%;
+    height: 98%;
+    z-index: 1;
+    background-color: white;
+    justify-content: center;
+    border: 4px solid #ffdfc4;
+    margin: 5px 5px 5px 5px;    
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.empty_alert {
+    margin: auto;
+}
